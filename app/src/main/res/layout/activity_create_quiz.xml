@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/quizName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/chewy"
+            android:hint="Quiz Name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:hint="Question 1"
+                android:textColorHint="@color/white" />
+
+            <RadioGroup
+                android:id="@+id/question1_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RadioButton
+                    android:id="@+id/question1_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/question1_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:hint="Option A"
+                    android:textColorHint="@color/white" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question1_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/question1_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:hint="Option B"
+                    android:textColorHint="@color/white" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question1_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/question1_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:hint="Option C"
+                    android:textColorHint="@color/white" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question1_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/question1_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:hint="Option D"
+                    android:textColorHint="@color/white" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 2" />
+
+            <RadioGroup
+                android:id="@+id/question2_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question2_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question2_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question2_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question2_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question2_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question2_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question2_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question2_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 3" />
+
+            <RadioGroup
+                android:id="@+id/question3_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question3_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question3_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question3_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question3_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question3_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question3_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question3_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question3_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 4" />
+
+            <RadioGroup
+                android:id="@+id/question4_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question4_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question4_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question4_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question4_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+                <RadioButton
+                    android:id="@+id/question4_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question4_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question4_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question4_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 5" />
+
+            <RadioGroup
+                android:id="@+id/question5_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question5_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question5_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question5_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question5_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question5_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question5_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question5_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question5_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 6" />
+
+            <RadioGroup
+                android:id="@+id/question6_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question6_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question6_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+                <RadioButton
+                    android:id="@+id/question6_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question6_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question6_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question6_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question6_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question6_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 7" />
+
+            <RadioGroup
+                android:id="@+id/question7_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question7_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question7_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question7_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question7_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question7_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question7_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question7_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question7_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 8" />
+
+            <RadioGroup
+                android:id="@+id/question8_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question8_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question8_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question8_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question8_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question8_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question8_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+                <RadioButton
+                    android:id="@+id/question8_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question8_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 9" />
+
+            <RadioGroup
+                android:id="@+id/question9_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question9_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question9_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question9_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question9_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question9_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question9_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+                <RadioButton
+                    android:id="@+id/question9_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question9_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/chewy"
+                android:id="@+id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Question 10" />
+
+            <RadioGroup
+                android:id="@+id/question10_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/question10_optionA_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question10_optionA_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option A" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question10_optionB_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question10_optionB_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option B" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question10_optionC_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question10_optionC_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option C" />
+
+
+
+
+                <RadioButton
+                    android:id="@+id/question10_optionD_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/chewy"
+                    android:id="@+id/question10_optionD_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Option D" />
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnCreateAndSave"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:fontFamily="@font/chewy"
+                android:text="Create and Save"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

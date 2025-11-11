@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/Pallete1"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Quizzler"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/Pallete4"
+        android:fontFamily="@font/chewy"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnCreateQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Quiz"
+        android:textColor="@color/Pallete4"
+        android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- New button for downloading quizzes -->
+    <Button
+        android:id="@+id/btnDownloadQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Quiz"
+        android:textColor="@color/Pallete4"
+        android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnQuizMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Quiz"
+        android:textColor="@color/Pallete4"
+        android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnEditQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Quiz"
+        android:textColor="@color/Pallete4"
+        android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLastQuizScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Quiz Score"
+        android:textColor="@color/Pallete4"
+        android:background="@color/Pallete2"
+        android:fontFamily="@font/chewy"
+        android:padding="12dp" />
+
+</LinearLayout>
