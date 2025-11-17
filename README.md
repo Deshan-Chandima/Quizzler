@@ -40,15 +40,14 @@ with a timer**. It is designed to be simple, fast, and easy to use.
 
 ## 📝 Quiz Creation
 
-Each custom quiz supports: - Multiple choice questions - Four answer
-options per question - One correct answer - Automatic score
-calculation - Timed attempts
+Each custom quiz supports:  Multiple choice questions,  Four answer
+options per question , One correct answer  ,Automatic score calculation, Timed attempts
 
 ## 📂 Project Structure
 
--   `app/src/main/java/` --- Main Java source code
--   `app/src/main/res/layout/` --- XML UI layout files
--   `app/src/main/res/values/` --- Strings, colors, styles
+-   `app/src/main/java/`  Main Java source code
+-   `app/src/main/res/layout/` XML UI layout files
+-   `app/src/main/res/values/`  Strings, colors, styles
 -   Local quiz files stored inside the app's directory
 
 
